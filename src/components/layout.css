@@ -1,0 +1,187 @@
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  /* background: #ff0; */
+  background: #fadf00;
+
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+@font-face {
+  font-family: 'Avenir Next LT Pro Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/AvenirNextLTPro-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Avenir Next LT Pro hevy';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/AvenirNextLTPro-HeavyCn.woff') format('woff');
+}
+@font-face {
+  font-family: 'Avenir Next LT Pro Medium Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src:  url('../fonts/AvenirNextLTPro-MediumCn.woff') format('woff');
+  }
+.main-header{
+    visibility: inherit;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 1;
+    z-index: 2000;
+    
+}
+.main-header-wrapper{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.title-jsconf{
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Avenir Next LT Pro Bold';
+  font-size: 8.4375rem;
+  line-height: 1.04;
+  letter-spacing: 0.01em;
+  
+}
+.subtitle-jsconf{
+  font-size: 4rem;
+  text-align: center;
+  margin-top: -20px;
+  font-family: 'Avenir Next LT Pro Bold';
+  line-height: 1.04;
+  letter-spacing: 0.01em;
+}
+.site-nav {
+  position: absolute;
+  top: 0.375em;
+  left: 1em;
+  right: 9.2em;
+}
+.social-links div {
+  display: inline-block;
+}
+.social-links {
+  position: absolute;
+  top: 0.275em;
+  right: 0.9em;
+  z-index: 2000;
+  font-size: 1.3rem;
+  line-height: 1;
+}
+.social-links {
+  font-size: 1rem;
+}
+
+.social-links a {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1em 0.6em;
+}
+.site-nav > div, .site-nav > h1 {
+  display: inline-block;
+}
+.site-nav h1 {
+  font-family: "Avenir Next LT Pro hevy", sans-serif;
+  letter-spacing: 0.075em;
+}
+.site-nav a {
+  display: inline-block;
+  margin: 0 0.5em;
+  /* padding: 1em 0.5em; */
+}
+
+.main-header a {
+  color: #191919;
+  opacity: 0.4;
+  -webkit-transition: opacity 0.25s ease-out;
+  -moz-transition: opacity 0.25s ease-out;
+  transition: opacity 0.25s ease-out;
+}
+
+.site-nav h1 a {
+  opacity: 1;
+}
+
+.container{
+  height: 100%;
+}
+.page {
+  /* position: relative; */
+  width: 88%;
+  height: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
+  text-align: center;
+ 
+}
+.page-content {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  font-family: "Avenir Next LT W04 Heavy", sans-serif;
+  font-size: 2.125rem;
+  line-height: 1.4117647059;
+   /* -webkit-transform: translate(0, -50%); */
+  /* -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);  */
+}
+
+.prox {
+  font-family: "Avenir Next LT Pro Medium Condensed", sans-serif;
+  font-size: 3.125rem;
+  /* line-height: 1.4117647059; */
+   /* -webkit-transform: translate(0, -50%); */
+  /* -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);  */
+}
+@media (min-width: 1300px){
+  .main-header {
+      font-size: 1.1rem;
+  }}
+@media (min-width: 1400px){
+.main-header {
+    font-size: 1rem;
+}
+}
+
+@media (max-width: 375px){
+
+.title-jsconf{
+  font-size: 4.5rem;
+}
+.subtitle-jsconf{
+  
+}
+
+}
